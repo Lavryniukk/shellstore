@@ -1,0 +1,59 @@
+Arguments: 
+  D:\NodeJS\node.exe C:\Users\leoyt\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D tailwindcss postcss autoprefixer
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\MinGW\bin;D:\NodeJS\;D:\Git\cmd;C:\Users\leoyt\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\leoyt\AppData\Local\Programs\Python\Python312\;C:\Users\leoyt\.cargo\bin;C:\Users\leoyt\AppData\Local\Microsoft\WindowsApps;C:\Users\leoyt\AppData\Local\Yarn\bin;C:\Users\leoyt\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\leoyt\AppData\Roaming\npm;D:\Coding apps\IntelliJ IDEA 2023.3.2\bin;;C:\Program Files\PostgreSQL\16\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.11.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Coding\svelte\myapp\node_modules\@rollup\rollup-win32-x64-msvc\rollup.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+  	"name": "myapp",
+  	"version": "0.0.1",
+  	"scripts": {
+  		"dev": "vite dev",
+  		"build": "vite build",
+  		"preview": "vite preview",
+  		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+  		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+  		"lint": "prettier --check . && eslint .",
+  		"format": "prettier --write ."
+  	},
+  	"devDependencies": {
+  		"@fontsource/fira-mono": "^4.5.10",
+  		"@neoconfetti/svelte": "^1.0.0",
+  		"@sveltejs/adapter-auto": "^3.0.0",
+  		"@sveltejs/kit": "^2.0.0",
+  		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+  		"@types/eslint": "8.56.0",
+  		"@typescript-eslint/eslint-plugin": "^6.0.0",
+  		"@typescript-eslint/parser": "^6.0.0",
+  		"eslint": "^8.56.0",
+  		"eslint-config-prettier": "^9.1.0",
+  		"eslint-plugin-svelte": "^2.35.1",
+  		"prettier": "^3.1.1",
+  		"prettier-plugin-svelte": "^3.1.2",
+  		"svelte": "^4.2.7",
+  		"svelte-check": "^3.6.0",
+  		"tslib": "^2.4.1",
+  		"typescript": "^5.0.0",
+  		"vite": "^5.0.3"
+  	},
+  	"type": "module"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
